@@ -1,0 +1,9 @@
+// Magus Class Features //
+
+new entry "Passive_Example"
+type "PassiveData"
+data "DisplayName" "" // from .loca file //
+data "Description" "" // from .loca file //
+data "Boosts" "UnlockSpell(Spell_Example)" // what does the passive give //
+
+// Check Modifiers for additional things for what you can do with Passives //
