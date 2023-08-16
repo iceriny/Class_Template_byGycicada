@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="21"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList"> 职业技能熟练项
+                    <attribute id="Skills" type="LSString" value="Atheletics, Acrobatics, Arcana, History, Investigation, Perception, Medicine, Religion, Survival"/> 在角色创建时可供选择熟练项的技能列表。
+                    <attribute id="UUID" type="guid" value="cf2af2a2-a7c3-4a21-b8c4-f45555555555"/> 与passiveList一样，创建一个新的UUID，并在选择技能时引用它
+                </node>
+				<node id="SkillList"> Class Skills
+                    <attribute id="Skills" type="LSString" value=""/> 您可以添加多个列表
+                    <attribute id="UUID" type="guid" value="cf2af2a2-a7c3-4a21-b8c4-f45555555555"/> 为每个列表创建一个新的UUID
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

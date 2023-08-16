@@ -1,0 +1,45 @@
+// 例子 //
+
+// 请注意，在这些条目中，并不需要所有的数据，只使用与你相关的部分即可。 //
+
+new entry "Spell_Example"
+type "SpellData"
+data "SpellType" "Shout"
+
+// 当一个法术命中目标、目标未能通过豁免检定或者总的来说，法术生效时会发生什么？ //
+data "SpellSuccess" ""
+
+// 这个法术的目标可以是什么 //
+data "Target" ""
+
+// 图标 //
+data "Icon" "Spell_Magus_ArcaneEnhancement"
+
+// 链接到*.loca文件 //
+data "DisplayName" "178b3b303a3eda8070c05531b0ce8e3a63768;1"
+data "Description" "861d5f66bc012679573520ca51f5c5f632352;1"
+
+// 施法的花费 //
+data "UseCosts" ""
+
+// 工具提示不是必要的  //
+data "TooltipStatusApply" "ApplyStatus(ARCANE_ENHANCEMENT,100,10)"
+
+// 目标数量 //
+data "MaximumTargets" "1"
+
+// 需要准备的法术位数(how many memory needed to prepare) //
+data "MemoryCost" "1"
+
+// 动画 //
+data "PreviewCursor" "Cast"
+data "CastSelfAnimation" "bcc3b0d9-f04f-4448-aab0-e0ad641167cc(SPL_Somatic_Self_01_Cast)"
+data "CastTextEvent" "Cast"
+data "CastSound" "Spell_Cast_Debuff_Bane_L1to3"
+data "TargetSound" "Spell_Impact_Debuff_Bane_L1to3"
+data "SpellAnimation" "9313094a-bae2-454f-9701-f920d0e8e98d(SPL_Arcane_Debuff_01_Prepare),,;,,;09ae2f11-f5b4-42f5-ae16-687a5b57d500(SPL_Somatic_Aoe_01_Cast),,;10caea0e-c949-4d91-8ab7-3b50019dd054(SPL_Somatic_Aoe_01_Recover),,;808fdfab-2e6c-472e-b3c4-19ce4a719d9d(SPL_Arcane_Debuff_01_Loop),,;,,"
+data "VerbalIntent" "Buff"
+data "SpellFlags" "HasVerbalComponent"
+data "PrepareEffect" "b090825a-0728-4566-a02b-056a188cc347"
+data "CastEffect" "38776222-db33-4b53-9e23-ca3b47ab58cb"
+data "PositionEffect" "7db045f9-83ac-4768-88c8-48563b685a9d"

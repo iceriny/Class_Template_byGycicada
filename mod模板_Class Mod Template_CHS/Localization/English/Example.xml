@@ -1,0 +1,10 @@
+﻿This is your localization file, for contentUID you can use any 37 Digit Hex code. and after you are done with it, use LSLib's localization tab to convert this file into a .loca file in the same folder.
+^ delet those text before converting
+
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="27523fb3deaa14de1766304e0911fbc49aed5" version="1">Example Text</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+</contentList>

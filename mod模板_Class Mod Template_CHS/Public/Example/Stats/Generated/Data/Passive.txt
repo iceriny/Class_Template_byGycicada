@@ -1,0 +1,9 @@
+// 法师职业特点 //
+
+new entry "Passive_Example"
+type "PassiveData"
+data "DisplayName" "" // 链接到*.loca 文件 //
+data "Description" "" // 链接到*.loca 文件 //
+data "Boosts" "UnlockSpell(Spell_Example)" // 这个被动技能提供了什么 //
+
+// 查看修饰符，了解你可以在被动技能中进行的其他操作。 //

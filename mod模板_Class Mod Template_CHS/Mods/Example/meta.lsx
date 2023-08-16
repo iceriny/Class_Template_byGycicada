@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+    <region id="Config">
+        <node id="root">
+            <children>
+                <node id="Dependencies"/>
+                <node id="ModuleInfo">
+                    <attribute id="Author" type="LSWString" value="Example"/> 作者名字
+                    <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
+                    <attribute id="Description" type="LSWString" value="Example"/> 你的mod的描述会显示在mod管理器中，不需要太详细
+                    <attribute id="Folder" type="LSWString" value="Example"/> 这个文件在哪个文件夹里
+                    <attribute id="GMTemplate" type="FixedString" value=""/>
+                    <attribute id="LobbyLevelName" type="FixedString" value=""/>
+                    <attribute id="MD5" type="LSWString" value=""/>
+                    <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
+                    <attribute id="MenuLevelName" type="FixedString" value=""/>
+                    <attribute id="Name" type="FixedString" value="Example"/> 你的Mod的名字会出现在Mod管理器中
+                    <attribute id="NumPlayers" type="uint8" value="4"/>
+                    <attribute id="PhotoBooth" type="FixedString" value=""/>
+                    <attribute id="StartupLevelName" type="FixedString" value=""/>
+                    <attribute id="Tags" type="LSWString" value=""/> 对于BG3ModManager，可以添加用分号隔离的标签，在mod管理器中可以显示出来。
+                    <attribute id="Type" type="FixedString" value="Add-on"/>
+					<attribute id="UUID" type="FixedString" value="807531df-9aa3-4c93-96c8-f45555555555"/> 给它一个唯一的UUID，这样它就不会与其他mod冲突
+					<attribute id="Version64" type="int64" value="36028816346316888"/>
+                    <children>
+                        <node id="PublishVersion">
+                            <attribute id="Version64" type="int64" value="1"/> 
+                        </node>
+                        <node id="Scripts"/>
+                        <node id="TargetModes">
+                            <children>
+                                <node id="Target">
+                                    <attribute id="Object" type="FixedString" value="Story"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

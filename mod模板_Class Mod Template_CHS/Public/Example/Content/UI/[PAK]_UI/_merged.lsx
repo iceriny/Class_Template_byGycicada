@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="602" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="c1ee6f02-75dd-49db-9c0f-f45555555555" /> 创建一个独特的UUID，在GUI文件夹的Icon_Example.lsx中使用，用于将图像切割成块。
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Icons_Example" /> GUI文件夹中*.lsx文件的名称
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public/Magus/Assets/Textures/Icons/Icons_Magus.dds" /> *.DDS文件的文件路径
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855873" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

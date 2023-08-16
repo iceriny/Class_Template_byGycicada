@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="60"/>
+    <region id="AbilityDistributionPresets">
+        <node id="root">
+            <children>
+                <node id="AbilityDistributionPreset">
+                    <attribute id="ClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555"/> 职业的UUID，这样游戏系统就知道它在看哪个
+                    <attribute id="Charisma" type="int32" value="8"/> 魅力
+					<attribute id="Constitution" type="int32" value="8"/> 体质
+                    <attribute id="Dexterity" type="int32" value="8"/> 敏捷
+                    <attribute id="Intelligence" type="int32" value="8"/> 智力
+                    <attribute id="Strength" type="int32" value="8"/> 力量
+                    <attribute id="Wisdom" type="int32" value="8"/> 感知
+					<attribute id="UUID" type="guid" value="462a0090-3eb0-4fad-adb5-f45555555555"/> 这个条目的UUID，在其他任何地方都不需要，但是您仍然需要为它创建一个新的UUID
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

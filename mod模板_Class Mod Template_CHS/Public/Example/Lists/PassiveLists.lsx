@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="206"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive1,Passive2,Passive3"/> 一个用逗号分隔的被动技能列表。译者：似乎是说类似法师奥数回想那种点开之后会展开成若干个的技能。
+                    <attribute id="UUID" type="guid" value="e6a6d53f-2f03-4e9b-ab4e-f45555555555"/> 为每个被动技能列表创建一个新的 UUID。在从列表中选择被动技能时，引用这个 UUID。
+                </node>
+				<node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive1,Passive2,Passive3"/> 你可以创建多个列表。同一个被动技能可以出现在不同的列表中。
+                    <attribute id="UUID" type="guid" value="e6a6d53f-2f03-4e9b-ab4e-f45555555555"/> 为每个被动技能列表创建一个新的UUID
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

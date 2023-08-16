@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="7" build="406"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription"> 主职业
+                    <attribute id="BaseHp" type="int32" value="8"/> 生命骰
+                    <attribute id="CanLearnSpells" type="bool" value="true"/> 是否可以学习法术
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/> 从别的主职业处复制而来 (我使用的法师的)
+                    <attribute id="Description" type="TranslatedString" handle="fd607b4e2f6c464ee09aeb05e7cd236c77160" version="1"/> 链接到*.loca文件
+                    <attribute id="DisplayName" type="TranslatedString" handle="27523fb3deaa14de1766304e0911fbc49aed5" version="1"/> 链接到*.loca文件
+                    <attribute id="HpPerLevel" type="int32" value="5"/> 每个等级的HP；生命骰的一半 + 1
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/> 是否必须准备法术 如果你不需要准备它们，就把值设为false
+                    <attribute id="Name" type="FixedString" value="Example"/> 你的职业名，这是代码识别的职业名，在游戏中显示的请用上面的DisplayName
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/> 主属性；这里的4代表智力（Int）。1-6顺序依次为：力量（Str）、敏捷（Dex）、体质（Con）、智力（Int）、感知（Wis）和魅力（Cha）。
+                    <attribute id="ProgressionTableUUID" type="guid" value="12e23854-bdef-434c-8e63-f45555555555"/> 此UUID将职业链接到Progressions.lsx中的特定进度表
+                    <attribute id="SoundClassType" type="FixedString" value="Wizard"/> 选择一个与你的职业最相似职业的类型。
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/> 施法能力； 这里的4代表智力（Int）。1-6顺序依次为：力量（Str）、敏捷（Dex）、体质（Con）、智力（Int）、感知（Wis）和魅力（Cha）。
+					<attribute id="SpellList" type="guid" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e"/> 施法列表，这用于从卷轴上学习法术或升级可选法术。
+                    <attribute id="UUID" type="guid" value="619bbe98-85a4-4b9d-a22a-f45555555555"/> 这是你职业的UUID，请生成一个新的UUID。
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c"/> 法师对话标签
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/> 对话标签战士(是的，你可以有多个对话标签)
+                        </node>
+                    </children>
+                </node>
+				<node id="ClassDescription"> 子职业(每个子职都需要一个这个)
+                    <attribute id="CanLearnSpells" type="bool" value="true"/> 是否可以学习法术
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Magus_SparklingTarge"/> 从equipment.txt开始装备条目
+					<attribute id="Description" type="TranslatedString" handle="c1f352e479bb5c912f1c9e10beaa02f256c05" version="1"/> 链接到*.loca文件
+                    <attribute id="DisplayName" type="TranslatedString" handle="1859c6e887c899da1bbd84ed15380a8c7dcca" version="1"/> 链接到*.loca文件
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="ExampleSubclass"/> 你的子职业名，这是代码识别的子职业名，在游戏中显示的请用上面的DisplayName
+                    <attribute id="ParentGuid" type="guid" value="619bbe98-85a4-4b9d-a22a-f45555555555"/> 这是与你的主职业相同的UUID，因为主职业充当子职业的父职业
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="d7bfd43c-8583-4503-a010-f45555555555"/> 这是一个与主职业不同的进度表的UID，因为这个进度表是特定于子职业的。
+                    <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="11277e95-d746-4df1-8a6f-f45555555555"/> 为子类创建一个唯一的UUID
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
+

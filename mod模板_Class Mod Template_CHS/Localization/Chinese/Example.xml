@@ -1,0 +1,10 @@
+﻿这是您的本地化文件，对于contentuid，您可以使用任何37位十六进制代码。完成后，使用LSLib工具的本地化选项卡将该文件转换为同一文件夹中的.loca文件。
+^ 在转换之前删除这两行文本。
+
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="27523fb3deaa14de1766304e0911fbc49aed5" version="1">文本示例</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+</contentList>

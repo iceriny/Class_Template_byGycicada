@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression"> 主职业等级1
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 你的职业在此等级是否获得一个专长。对于1级无效。
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ExampleResource,5,0);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Constitution);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor)"/> 增加资源、熟练项等。
+                    <attribute id="Level" type="uint8" value="1"/> 这个条目的职业等级
+                    <attribute id="Name" type="LSString" value="Example"/> 职业名，与ClassDescriptions.lsx保持一致
+                    <attribute id="PassivesAdded" type="LSString" value="Passive1"/> 被动添加；大多数职业特性通常可以使用被动技能来实现。
+                    <attribute id="PassivesRemoved" type="LSString" value=""/> 被动移除
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 进度表类型。0表示主职业，1表示子职业，2表示种族
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(PASSIVE_LIST_UUID,1);SelectSkills(SKILL_LIST_UUID,3);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> 在这里，你可以让你的职业从法术列表中选择法术，从被动技能列表中选择被动技能，以及从技能列表中选择技能。选择能力加值允许你在角色创建时获得+2/+1。
+					<attribute id="TableUUID" type="guid" value="12e23854-bdef-434c-8e63-f45555555555"/> 与ClassDescriptions.lsx中相同的UUID，这指的是整个表格。
+                    <attribute id="UUID" type="guid" value="452d6137-7720-4d04-b950-f45555555555"/> 一个专门用于此条目的唯一UUID。
+					<children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> 子职业。当你的职业选择它的子类时，在一个级别上添加这个部分
+                                    <attribute id="Object" type="guid" value="11277e95-d746-4df1-8a6f-f45555555555"/> 与classdescription .lsx中子类的UUID相同
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> 主职业等级1 多职业。（你会希望单独创建一个，因为多职业时没有能力加值）。多职业角色将使用这个进阶条目，而不是之前的条目。
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+					<attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Example"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+					<attribute id="TableUUID" type="guid" value="12e23854-bdef-434c-8e63-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="5e682fd9-6864-45e0-bf8b-f45555555555"/>
+					<children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> 子职业。当你的职业选择它的子类时，在一个级别上添加这个部分
+                                    <attribute id="Object" type="guid" value="11277e95-d746-4df1-8a6f-f45555555555"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> 子职等级1
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="ExampleSubclass"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 类型 1 = 子职
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="d7bfd43c-8583-4503-a010-f45555555555"/> 与classdescription .lsx中的ProgressionTableUUID相同
+                    <attribute id="UUID" type="guid" value="69fb0860-b829-4289-b42b-f45555555555"/> 给它一个唯一的UUID
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

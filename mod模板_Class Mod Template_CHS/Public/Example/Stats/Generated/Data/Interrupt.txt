@@ -1,0 +1,14 @@
+new entry "Interrupt_Example"
+type "InterruptData"
+data "DisplayName" "b46f93019df6cfa3dc0372013057cd4ad296f;1" // 链接到 *.loca 文件 //
+data "Description" "dc6cc9b02903e8674849e37d7791a7a298f17;1" // 链接到 *.loca 文件 //
+data "Icon" "Spell_Shield" // 选择一个游戏中的图标或你制作的图标，或者留空 //
+data "InterruptContext" "OnPostRoll;OnPreDamage" // 这个中断正在寻找什么样的触发器 //
+data "InterruptContextScope" "Self" // 这个触发器的范围是什么？ //
+data "Container" "YesNoDecision" // 这是什么类型的判定 //
+data "Conditions" "" // 触发中断的条件是什么？ //
+data "Properties" "" // 当你选择使用它时会发生什么？ //
+data "Cost" "" // 这个中断的资源消耗是多少 //
+data "InterruptDefaultValue" "Ask;Enabled" // 默认设置，在游戏中可以更改。 //
+
+// 查看修饰符(Modifiers)，了解你可以在中断中进行的其他操作。 //

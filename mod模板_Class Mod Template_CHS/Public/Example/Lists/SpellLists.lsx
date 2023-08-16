@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="5" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+				<node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Spell1;Spell2;Spell3"/> 由 ; 分隔的法术列表
+                    <attribute id="UUID" type="guid" value="91202cf0-eaf4-4e5d-9f55-f45555555555"/> 创建一个新的UUID。在选择或添加法术时参考这个
+                </node>
+				<node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Spell1;Spell2;Spell3"/> 你可以有多个列表，同样的法术可以出现在不同的列表中
+                    <attribute id="UUID" type="guid" value="91202cf0-eaf4-4e5d-9f55-f45555555555"/> 新的UUID
+                </node>
+			</children>
+        </node>
+    </region>
+</save>
