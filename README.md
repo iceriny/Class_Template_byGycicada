@@ -1,6 +1,5 @@
 # **Mod模版介绍**
 
-博德之门3N网的Mod模板。https://www.nexusmods.com/baldursgate3/mods/946
 ### 这是一个用于职业模组的模板。应该能够帮助你开始制作任何你想要的职业模组。
 
 ****
@@ -9,12 +8,12 @@
 ##### 确保你拥有必要的工具，特别是：
 1. 由Norbyte开发的[LSLib](https://github.com/Norbyte/lslib "导出工具")。这可以让你对文件进行打包和解包，转换文件类型，并具有许多强大的功能。
    
-2. [Modder's Multitool](https://github.com/ShinyHobo/BG3*Modders*Multitool "Moder的多重工具")。设置可能需要一些时间，请遵循其说明。该程序允许你搜索游戏文件，以查看是否有任何可以重新使用或复制的内容。
+2. [Modder's Multitool](https://github.com/ShinyHobo/BG3-Modders-Multitool "Moder的多重工具")。设置可能需要一些时间，请遵循其说明。该程序允许你搜索游戏文件，以查看是否有任何可以重新使用或复制的内容。
 
 ##### 你可能想要使用的其他一些工具：
 1. [图标生成](https://www.nexusmods.com/baldursgate3/mods/521 "AI图标生成")：模型使用stable diffusion来生成给定提示的图标（保持简短）。
 2. 图像编辑软件：我比较节省，所以不会购买Photoshop。[GIMP](https://www.gimp.org)已经提供了我需要的一切。
-3. 某种不是基本记事本的文本编辑软件。我一直在使用[Notepad++](https://notepad*plus*plus.org)，我个人认为它相当不错。
+3. 某种不是基本记事本的文本编辑软件。我一直在使用[Notepad++](https://notepad-plus-plus.org)，我个人认为它相当不错。
 4. Larian的官方Discord服务器。如果你有任何问题，那里有很多人乐意提供帮助。
 
 ##### 为文件结构所做的其他有用的事情：
